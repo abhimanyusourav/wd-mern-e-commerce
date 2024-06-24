@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    width: 300px;
+}
+
+p {
+    width: 300px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.products {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    font-size: 20px;
+}
